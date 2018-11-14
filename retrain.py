@@ -69,7 +69,7 @@ TENSORBOARD_DIR = os.getcwd() + '/' + 'tensorboard_logs'
 
 # how many training steps to run before ending
 # NOTE: original Google default is 4000, use 4000 (or possibly higher) for production grade results
-HOW_MANY_TRAINING_STEPS=500
+HOW_MANY_TRAINING_STEPS=700
 
 # how large a learning rate to use when training
 LEARNING_RATE = 0.01
