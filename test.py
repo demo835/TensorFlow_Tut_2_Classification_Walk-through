@@ -106,6 +106,9 @@ def main():
                 if onMostLikelyPrediction:
                     # get the score as a %
                     scoreAsAPercent = confidence * 100.0
+                    # if the confidence score is too low, the object is unknown
+                    if scoreAsAPercent < 45.0:
+                        strClassification = "Unknown"
                     # show the result to std out
                     print("the object appears to be a " + strClassification + ", " + "{0:.2f}".format(scoreAsAPercent) + "% confidence")
                     # write the result on the image
