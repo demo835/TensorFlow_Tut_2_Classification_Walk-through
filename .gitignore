@@ -17,6 +17,8 @@ flower_photos.tgz
 output_graph.pb
 output_labels.txt
 
+/old_test_images
+
 # /training_images
 
 # /test_images
