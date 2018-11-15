@@ -95,8 +95,8 @@ def main():
                 strClassification = classifications[prediction]
 
                 # if the classification (obtained from the directory name) ends with the letter "s", remove the "s" to change from plural to singular
-                if strClassification.endswith("s"):
-                    strClassification = strClassification[:-1]
+                # if strClassification.endswith("s"):
+                #     strClassification = strClassification[:-1]
                 # end if
 
                 # get confidence, then get confidence rounded to 2 places after the decimal
